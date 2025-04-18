@@ -1,0 +1,584 @@
+.Containner {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Containner-pull {
+  display: flex;
+  justify-content: center;  
+  align-items: center;       
+  height: 100vh;            
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+}
+
+.Containner-home {
+  display: flex;
+  justify-content: center;  
+  align-items: center;       
+  height: 100vh;           
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+}
+
+.Containner-show {
+  display: flex;
+  justify-content: center;  
+  align-items: center;       
+  height: 100vh;            
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+}
+
+.Containner-showdis {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.Containner-login {
+  display: flex;
+  justify-content: center;  
+  align-items: center;       
+  height: 100vh;            
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+}
+
+.Containner-pullsuccess {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.login-div {
+  justify-content: center;
+}
+
+.Text-W {
+  font-size: 20px;
+  color: #252525;
+}
+
+.Text-H {
+  font-size: 24px;
+  color: #252525;
+  font-weight: bold;
+}
+
+.Text-UP {
+  font-size: 16px;
+  color: #252525;
+  margin-left: -140px;
+}
+
+.Text-D {
+  font-size: 16px;
+  color: #252525;
+  margin-top: -10px;
+}
+
+.Input-Box {
+  width: 200px;
+  height: 30px;
+  background-color: snow;
+  border-radius: 8px;        
+  font-size: 14px;           
+  outline: none; 
+}
+
+.Input-div {
+  justify-items: center;
+}
+
+.Button-styleLogin {
+  width: 210px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 8px;        
+  font-size: 14px;           
+  outline: none;
+  background-color: snow;
+}
+
+.Button-styleCon {
+  width: 210px;
+  height: 40px;
+  border-radius: 8px;  
+  margin: 15px;      
+  font-size: 14px;
+  outline: none;
+  background-color: snow;
+}
+
+.Div-butcon {
+  justify-content: center;
+}
+
+.Back-ele {
+  height: 30px;
+}
+
+.Div-back {
+  margin-top: 40%;
+  margin-left: -90%;
+}
+
+.Back-text {
+  font-size: 12px;
+  color: #252525;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: -1px;
+}
+
+.Text-date {
+  margin-left: -200px;
+}
+
+.Button-stylePull {
+  width: 275px;
+  height: 50px;
+  border-radius: 8px;      
+  font-size: 14px;
+  margin-top: 30px;
+  outline: none;
+  background-color: snow;
+}
+
+.Button-stylePredict {
+  width: 275px;
+  height: 50px;
+  border-radius: 8px;      
+  font-size: 14px;
+  margin-top: 10px;
+  outline: none;
+  background-color: snow;
+}
+
+.Text-show {
+  font-size: 24px;
+  color: #252525;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.Image-style {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+.Div-img-con {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 14%;
+  min-height: 100px;
+}
+
+.Div-img-box {
+  width: 300px;
+  height: 350px;
+  background-color:#252525;
+  border-radius: 30px;
+}
+
+.Text-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #252525;
+  margin-left: 20px;
+}
+
+.Text-result {
+  font-size: 14px;
+  font-weight: bold;
+  color: #252525;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+/* ---------- */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f5; 
+  overflow: hidden;
+}
+
+.welcome-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #eaf6ff;
+  padding: 20px;
+}
+
+.welcome-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #252525;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+}
+
+.login-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #252525;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form label {
+  font-size: 1rem;
+  color: #252525;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+
+.login-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  background-color: white;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #252525;
+}
+
+.login-form button {
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #252525;
+  background-color: #eaf6ff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #eaf6ff;
+}
+
+.Text-Welcome {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Box-PS {
+  width: 200px;
+  height: 200px;
+  background-color: #eaf6ff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Box-PS-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #eaf6ff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Text-PS {
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  color: #252525;
+}
+
+.Text-PS-2 {
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  color: #252525;
+}
+
+.Text-PS-H {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Text-PS-S {
+  font-size: 20px;
+  margin-top: -30px;
+}
+
+.Text-PS-C {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Date-picker {
+  width: 550px;
+  height: 40px;
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 35px;
+  outline: none;
+  align-self: center;
+}
+
+.Button-Pull {
+  width: 275px;
+  height: 50px;
+  border-radius: 8px;      
+  font-size: 14px;
+  margin-top: 30px;
+  outline: none;
+  background-color: #eaf6ff;
+  align-self: center;
+  border: 1px solid #f5f5f5;
+}
+
+.Text-PS-H-ST {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.prediction-report {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.prediction-report h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.prediction-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.prediction-card {
+  /* background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative; */
+  background-color: #eaf6ff;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+  width: 250px; /* หรือขนาดที่ต้องการ */
+  height: 300px; /* ปรับตามความสูงที่ต้องการ */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-placeholder {
+  width: 250px;
+  height: 200px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.button-container {
+  position: absolute;
+  top: 170px; /* ปรับตำแหน่งปุ่ม */
+  right: 25px;
+}
+
+.circle-button {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #d9d9d9;
+}
+
+.circle-button:hover {
+  background-color: #f0f0f0;
+}
+
+.prediction-info {
+  margin-top: 20px;
+}
+
+.prediction-info p {
+  /* margin: 5px 0;
+  font-size: 14px; */
+  margin: 5px 0;
+  font-size: 14px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .prediction-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .prediction-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* ให้ Modal อยู่เหนือทุกอย่าง */
+}
+
+.modal-content {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+  position: relative;
+}
+
+.modal-image {
+  width: auto;
+  height: auto;
+  max-height: 450px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.waiting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* ครอบคลุมความสูงเต็มหน้าจอ */
+  width: 100vw;
+  text-align: center;
+  background-color: white; /* พื้นหลังสีอ่อน */
+}
+
+.waiting-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.waiting-message {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.error {
+  font-size: 16px;
+  color: #e74c3c; /* สีแดงสำหรับ error */
+  margin-bottom: 20px;
+}
+
+.loader {
+  border: 8px solid #e0e0e0; /* สีเทาอ่อน */
+  border-top: 8px solid #3498db; /* สีน้ำเงิน */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 25px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.back-button {
+  padding: 12px 24px;
+  background-color: #3498db; /* สีน้ำเงิน */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #2980b9; /* สีน้ำเงินเข้มเมื่อ hover */
+}
