@@ -1,1 +1,1 @@
-# WebDetectionIcecream
+# WebClassificationIcecream
