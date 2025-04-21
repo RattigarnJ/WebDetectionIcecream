@@ -25,19 +25,19 @@ import uuid
 import threading
 
 
-# app = Flask(__name__)
+app = Flask(__name__)
 
-app = Flask(__name__, static_folder="C:\\Users\\Ratti\\myicecreamapp\\frontend\\build", static_url_path="/")
+# app = Flask(__name__, static_folder="C:\\Users\\Ratti\\myicecreamapp\\frontend\\build", static_url_path="/")
 
-# Serve React index.html
-@app.route("/")
-def serve_react():
-    return send_from_directory(app.static_folder, "index.html")
+# # Serve React index.html
+# @app.route("/")
+# def serve_react():
+#     return send_from_directory(app.static_folder, "index.html")
 
-# Optional: API route
-@app.route("/api/hello")
-def hello():
-    return {"message": "Hello from Flask"}
+# # Optional: API route
+# @app.route("/api/hello")
+# def hello():
+#     return {"message": "Hello from Flask"}
 
 CORS(app)  # ✅ อนุญาตให้ React เรียก API ได้
 

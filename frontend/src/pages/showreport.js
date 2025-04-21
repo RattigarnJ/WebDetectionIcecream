@@ -2,7 +2,7 @@ import '../App.css';
 import React from "react";
 import { useState, useEffect, useMemo } from "react";
 import axios from "axios";
-import logosearch from "C:\\Users\\Ratti\\myicecreamapp\\frontend\\src\\components\\search.png"
+import logosearch from "C:\\Users\\Ratti\\WebDetectionIcecream\\frontend\\src\\components\\search.png"
 
 import { Pie } from 'react-chartjs-2'; // Import Pie component
 import {
