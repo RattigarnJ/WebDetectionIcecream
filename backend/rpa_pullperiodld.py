@@ -129,7 +129,7 @@ try:
     # Select Company part
     cpn_select = driver.find_element(By.XPATH, '/html/body/app-root/app-plan-search/div/div/div[2]/app-search-pm-box/div/form/div[3]/div[2]/app-multi-search-box/div/input')
     cpn_select.click()
-    time.sleep(2)
+    time.sleep(5)
 
     cpn_select = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/mat-dialog-container/div/div/app-dialog-multiselect/div/div[2]/angular2-multiselect/div/div[1]/div')
     cpn_select.click()
